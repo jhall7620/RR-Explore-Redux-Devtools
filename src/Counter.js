@@ -18,12 +18,12 @@ function Counter() {
             <button
                 aria-label="Increment value"
                 onClick={() => dispatch(increment())}>
-                Increment
+                Increase
             </button>
             <button
                 aria-label="Decrement value"
                 onClick={() => dispatch(decrement())}>
-                Decrement
+                Decrease
             </button>
             <form onSubmit={(e) => byAmount(e)}>
                 <input type="number" onChange={(e) => setInput(e.target.value)} />
